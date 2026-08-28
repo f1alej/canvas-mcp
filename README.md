@@ -65,7 +65,7 @@ Add (or merge) this configuration:
 **Common Canvas URLs:**
 | University | Canvas URL |
 |------------|------------|
-| Illinois Mathematics and Science Academy | `https://.imsa.instructure.com` |
+| Illinois Mathematics and Science Academy | `https://imsa.instructure.com` |
 | Generic Instructure | `https://canvas.instructure.com` |
 | Your school | Check your browser when logged into Canvas |
 
