@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Build output (users will run npm run build themselves)
+dist/
+
+# Environment files - NEVER commit these! They contain your API token
+.env
+.env.local
+.env.*.local
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional: lock files (uncomment if you want to ignore)
+# package-lock.json

@@ -1,0 +1,41 @@
+{
+  "name": "canvas-mcp",
+  "version": "1.0.0",
+  "description": "MCP server that connects Claude to Canvas LMS - manage coursework through natural conversation",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "mcp",
+    "canvas",
+    "lms",
+    "claude",
+    "ai",
+    "education",
+    "university",
+    "assignments",
+    "model-context-protocol"
+  ],
+  "author": "Alejandro Valadez",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/f1alej/canvas-mcp.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "dotenv": "^16.4.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  }
+}
