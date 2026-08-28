@@ -208,4 +208,4 @@ Contributions welcome! Feel free to:
 
 ## License
 
-MIT - Use it however you want! Originally based on [lucanardinocchi/canvas-mcp](https://github.com/lucanardinocchi/canvas-mcp) (MIT licensed).
+MIT - Use it however you want!
