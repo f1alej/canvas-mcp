@@ -3,9 +3,9 @@
 An MCP (Model Context Protocol) server that connects Claude to Canvas LMS, letting you manage your coursework through natural conversation.
 
 **Ask Claude things like:**
-- "What's due this week in Geometry?"
+- "What's due this week in MI4?"
 - "Show me the rubric for my Lit Explorations essay"
-- "What did Mx. Kopff say in my Chemistry feedback?"
+- "What did Ms. Kopff say in my Chemistry feedback?"
 - "List all my IMSA courses"
 - "Are there any overdue assignments in MSI?"
 
