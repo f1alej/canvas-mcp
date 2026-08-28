@@ -14,6 +14,7 @@ import { registerSubmissionTools } from './tools/submissions.js';
 import { registerModuleTools } from './tools/modules.js';
 import { registerDiscussionTools } from './tools/discussions.js';
 import { registerSearchTools } from './tools/search.js';
+import { registerFileTools } from './tools/files.js';
 
 // Validate required environment variables
 function validateEnvironment(): void {
@@ -53,6 +54,7 @@ async function main(): Promise<void> {
   registerModuleTools(server);
   registerDiscussionTools(server);
   registerSearchTools(server);
+  registerFileTools(server);
 
   // Create stdio transport and connect
   const transport = new StdioServerTransport();

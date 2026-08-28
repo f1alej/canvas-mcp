@@ -99,6 +99,9 @@ You should now see Canvas tools available in Claude!
 - Upload files for submission
 - View instructor feedback and comments
 
+### 📄 Files
+- Read the text content of `.docx` attachments (assignment instructions, submitted papers, feedback docs) directly in the conversation
+
 ### 🔍 Search
 - Find assignments by due date
 - Search course content
@@ -129,6 +132,7 @@ You should now see Canvas tools available in Claude!
 | `get_overdue_assignments` | Find past-due work |
 | `search_course_content` | Search modules and assignments |
 | `get_all_upcoming_work` | Upcoming work across ALL courses |
+| `read_docx_file` | Read the text content of a `.docx` file attachment |
 
 ---
 

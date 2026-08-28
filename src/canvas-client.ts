@@ -465,6 +465,22 @@ export class CanvasClient {
   async getCurrentUser(): Promise<{ id: number; name: string; email?: string }> {
     return this.request<{ id: number; name: string; email?: string }>('/users/self');
   }
+
+  // ==================== FILES ====================
+
+  async downloadFile(fileUrl: string): Promise<ArrayBuffer> {
+    const response = await this.fetchWithRetry(fileUrl, {
+      headers: { 'Authorization': `Bearer ${this.apiToken}` },
+    });
+
+    if (!response.ok) {
+      throw new Error(
+        `Canvas file download error: ${response.status} ${response.statusText}`
+      );
+    }
+
+    return response.arrayBuffer();
+  }
 }
 
 // Singleton instance creator
