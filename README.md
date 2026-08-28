@@ -3,11 +3,11 @@
 An MCP (Model Context Protocol) server that connects Claude to Canvas LMS, letting you manage your coursework through natural conversation.
 
 **Ask Claude things like:**
-- "What assignments do I have due this week?"
-- "Show me the rubric for my essay assignment"
-- "What did my professor say in the feedback?"
-- "List all my courses"
-- "Are there any overdue assignments?"
+- "What's due this week in Geometry?"
+- "Show me the rubric for my Lit Explorations essay"
+- "What did Mx. Kopff say in my Chemistry feedback?"
+- "List all my IMSA courses"
+- "Are there any overdue assignments in MSI?"
 
 ## Quick Start
 
@@ -208,14 +208,4 @@ Contributions welcome! Feel free to:
 
 ## License
 
-MIT - Use it however you want!
-
----
-
-## Acknowledgments
-
-Originally based on [lucanardinocchi/canvas-mcp](https://github.com/lucanardinocchi/canvas-mcp) (MIT licensed), with pagination fixes and a rate-limit retry added.
-
-Built with:
-- [Model Context Protocol SDK](https://github.com/modelcontextprotocol/typescript-sdk)
-- [Canvas LMS REST API](https://canvas.instructure.com/doc/api/)
+MIT - Use it however you want! Originally based on [lucanardinocchi/canvas-mcp](https://github.com/lucanardinocchi/canvas-mcp) (MIT licensed).
